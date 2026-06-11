@@ -1,6 +1,6 @@
 # KalHuenic — Apps for a Cleaner Internet
 
-A highly aesthetic, minimalist, and privacy-focused app showcase site. 
+An aesthetic, minimalist app showcase site. 
 
 🔗 **Live Website**: [kalhuenic.github.io](https://kalhuenic.github.io)
 
