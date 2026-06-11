@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>KalHuenic — Apps for a Cleaner Internet</title>
+  <meta name="description" content="KalHuenic builds focused, privacy-first Android apps. Browse projects including UnLink — a tool that strips tracking parameters from URLs." />
+  <meta name="author" content="KalHuenic" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="KalHuenic — Apps for a Cleaner Internet" />
+  <meta property="og:description" content="Focused, privacy-first Android apps. Browse projects by KalHuenic." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kalhuenic.github.io" />
+
+  <!-- Security -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'none';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="no-referrer" />
+
+  <!-- Favicon placeholder (update when you have one) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Preload font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Progressive Blur Effects -->
+  <div class="progressive-blur-top" aria-hidden="true"></div>
+  <div class="progressive-blur-bottom" aria-hidden="true"></div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <header>
+    <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <a href="#" class="nav-logo" aria-label="KalHuenic homepage">KalHuenic</a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+            title="Toggle dark mode"
+          >
+            <!-- Moon icon (shown in light mode) -->
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <!-- Sun icon (shown in dark mode) -->
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="container">
+        <h1 class="hero-headline">
+          An app journal for my<br /><span>journey.</span>
+        </h1>
+
+
+        <a href="#apps" class="hero-cta" id="hero-cta-btn">
+          Browse Apps
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <polyline points="19 12 12 19 5 12"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════ APPS SHOWCASE ═══════════════ -->
+    <section class="apps" id="apps" aria-label="Apps showcase">
+      <div class="container">
+        <div class="apps-header animate-on-scroll">
+          <p class="section-label">Projects</p>
+          <h2 class="section-title">What I've built</h2>
+        </div>
+
+        <div class="apps-grid">
+
+          <!-- ── App Card: UnLink ── -->
+          <article class="app-card animate-on-scroll animate-delay-1" id="app-unlink">
+            <div class="app-card-top">
+              <div class="app-icon">
+                <img src="assets/unlink-icon.png" alt="UnLink app icon" width="56" height="56" />
+              </div>
+              <div>
+                <h3 class="app-name">UnLink</h3>
+                <p class="app-platform">Android</p>
+              </div>
+            </div>
+
+            <p class="app-description">
+              Strip tracking parameters from URLs before you share them. Cleans links from Threads, Facebook, YouTube, and more — so you share the content, not the surveillance.
+            </p>
+
+            <div class="app-tags">
+              <span class="tag">Privacy</span>
+              <span class="tag">Utility</span>
+              <span class="tag">Android</span>
+              <span class="tag">Open Source</span>
+            </div>
+
+            <div class="app-card-footer">
+              <a
+                href="https://github.com/juntang2/UnLink"
+                class="app-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View UnLink on GitHub"
+                id="unlink-github-link"
+              >
+                View on GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- ── More apps coming soon card ── -->
+          <article class="app-card animate-on-scroll animate-delay-2" id="app-coming-soon" style="border-style: dashed; opacity: 0.5; pointer-events: none;">
+            <div class="app-card-top">
+              <div class="app-icon-placeholder" aria-hidden="true">＋</div>
+              <div>
+                <h3 class="app-name">More coming</h3>
+                <p class="app-platform">In the works</p>
+              </div>
+            </div>
+            <p class="app-description">
+              New tools are in development. Check back soon.
+            </p>
+            <div class="app-tags">
+              <span class="tag">Soon™</span>
+            </div>
+            <div class="app-card-footer">
+              <span class="app-link" style="cursor: default;">Stay tuned</span>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="apps-more animate-on-scroll animate-delay-3">More projects are on the way — follow on GitHub to stay updated.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section class="about" id="about" aria-label="About KalHuenic">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-text animate-on-scroll">
+            <p class="section-label">About</p>
+            <h2 class="section-title">Building tools I'd actually use</h2>
+            
+            <p class="about-body">
+              Every app starts with a genuine frustration I had myself.
+            </p>
+
+
+          </div>
+
+          <div class="about-visual animate-on-scroll animate-delay-1" aria-hidden="true">
+            <div class="about-card-stack">
+              <div class="stack-card stack-card-1"></div>
+              <div class="stack-card stack-card-2"></div>
+              <div class="stack-card stack-card-3">🔗</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section class="contact" id="contact" aria-label="Contact and social links">
+      <div class="container">
+        <div class="contact-inner animate-on-scroll">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">Get in touch</h2>
+          <p class="section-subtitle">
+            Find the code on GitHub, or reach out if you have questions, ideas, or just want to say hi.
+          </p>
+
+          <div class="social-links">
+            <!-- KalHuenic GitHub -->
+            <a
+              href="https://github.com/KalHuenic"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="KalHuenic on GitHub"
+              id="contact-github-kal"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </svg>
+              KalHuenic
+            </a>
+
+            <!-- juntang2 GitHub (UnLink's repo account) -->
+            <a
+              href="https://github.com/juntang2"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="juntang2 on GitHub"
+              id="contact-github-juntang"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </svg>
+              juntang2
+            </a>
+
+            <!-- Email placeholder -->
+            <a
+              href="mailto:your@email.com"
+              class="social-link"
+              aria-label="Send an email"
+              id="contact-email"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M2 7l10 7 10-7"/>
+              </svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-copy">© 2026 KalHuenic. All rights reserved.</p>
+      <a href="#hero" class="footer-back" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+          <line x1="12" y1="19" x2="12" y2="5"/>
+          <polyline points="5 12 12 5 19 12"/>
+        </svg>
+        Back to top
+      </a>
+    </div>
+  </footer>
+
+  <!-- Script (deferred for performance) -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
