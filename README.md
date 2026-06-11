@@ -1,4 +1,4 @@
-# KalHuenic — Apps for a Cleaner Internet
+# KalHuenic — App Journal
 
 An aesthetic, minimalist app showcase site. 
 
