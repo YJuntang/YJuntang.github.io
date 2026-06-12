@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kalhuenic.github.io/sitemap.xml
+Sitemap: https://yjuntang.github.io/sitemap.xml

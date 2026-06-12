@@ -1,8 +1,8 @@
-# KalHuenic — App Journal
+# Juntang — Apps for a Cleaner Internet
 
 An aesthetic, minimalist app showcase site. 
 
-🔗 **Live Website**: [kalhuenic.github.io](https://kalhuenic.github.io)
+🔗 **Live Website**: [yjuntang.github.io](https://yjuntang.github.io)
 
 ---
 

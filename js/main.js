@@ -1,5 +1,5 @@
 /* ============================================================
-   KalHuenic.github.io — Main JavaScript
+   yjuntang.github.io — Main JavaScript
    ============================================================ */
 
 (function () {
