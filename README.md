@@ -1,4 +1,4 @@
-# Juntang — Apps for a Cleaner Internet
+# Juntang — App Journal
 
 An aesthetic, minimalist app showcase site. 
 
