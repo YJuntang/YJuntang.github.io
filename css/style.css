@@ -481,6 +481,13 @@ section {
   border-top: 1px solid var(--border);
 }
 
+.app-link-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
 .app-link {
   display: inline-flex;
   align-items: center;
@@ -494,6 +501,14 @@ section {
 .app-link:hover {
   color: var(--accent-hover);
   gap: 10px;
+}
+
+.app-link-secondary {
+  color: var(--text-tertiary);
+}
+
+.app-link-secondary:hover {
+  color: var(--text-secondary);
 }
 
 .app-link svg {

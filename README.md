@@ -1,6 +1,6 @@
-# Juntang — App Journal
+# Juntang - Practical Tools
 
-An aesthetic, minimalist app showcase site. 
+An aesthetic, minimalist project showcase site.
 
 🔗 **Live Website**: [yjuntang.github.io](https://yjuntang.github.io)
 
@@ -13,4 +13,6 @@ An aesthetic, minimalist app showcase site.
 - **Security & Performance**: Implements a strict Content Security Policy (CSP), clean metadata, and responsive layout styling optimized for speed and SEO.
 
 ## Featured Apps
-- **[UnLink](https://github.com/juntang2/UnLink)**: An open-source Android utility that strips tracking and telemetry parameters from URLs before sharing them.
+- **[Syntax2DrawIO](https://github.com/YJuntang/Syntax2DrawIO)**: A web and desktop tool for converting Mermaid and PlantUML into editable Draw.io files.
+- **[UnLink](https://github.com/YJuntang/UnLink)**: An open-source Android utility that strips tracking and telemetry parameters from URLs before sharing them.
+- **[RentSplit](https://github.com/YJuntang/RentSplit)**: An offline-first Android app for roommate and household expense sharing.
