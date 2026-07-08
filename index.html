@@ -58,7 +58,7 @@
         <a href="#" class="nav-logo" aria-label="Jun homepage">Juntang</a>
 
         <ul class="nav-links" role="list">
-          <li><a href="#apps">Apps</a></li>
+          <li><a href="#apps">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -103,7 +103,7 @@
 
 
         <a href="#apps" class="hero-cta" id="hero-cta-btn">
-          Browse Apps
+          Browse Projects
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <line x1="12" y1="5" x2="12" y2="19"/>
             <polyline points="19 12 12 19 5 12"/>
@@ -112,8 +112,8 @@
       </div>
     </section>
 
-    <!-- ═══════════════ APPS SHOWCASE ═══════════════ -->
-    <section class="apps" id="apps" aria-label="Apps showcase">
+    <!-- ═══════════════ PROJECTS SHOWCASE ═══════════════ -->
+    <section class="apps" id="apps" aria-label="Projects showcase">
       <div class="container">
         <div class="apps-header animate-on-scroll">
           <p class="section-label">Projects</p>
@@ -123,7 +123,8 @@
         <div class="apps-grid">
 
           <!-- App Card: Syntax2DrawIO -->
-          <article class="app-card animate-on-scroll animate-delay-1" id="app-syntax2drawio">
+          <article class="app-card app-card-featured animate-on-scroll animate-delay-1" id="app-syntax2drawio">
+            <span class="featured-badge">Featured</span>
             <div class="app-card-top">
               <div class="app-icon">
                 <img src="assets/syntax2drawio-icon.svg" alt="Syntax2DrawIO app icon" width="56" height="56" />
@@ -257,23 +258,34 @@
             </div>
           </article>
 
-          <!-- ── More apps coming soon card ── -->
-          <article class="app-card animate-on-scroll animate-delay-3" id="app-coming-soon" style="border-style: dashed; opacity: 0.5; pointer-events: none;">
+          <!-- ── Currently exploring card ── -->
+          <article class="app-card app-card-muted animate-on-scroll animate-delay-3" id="app-coming-soon">
             <div class="app-card-top">
-              <div class="app-icon-placeholder" aria-hidden="true">＋</div>
+              <div class="app-icon-placeholder" aria-hidden="true">→</div>
               <div>
-                <h3 class="app-name">More coming</h3>
-                <p class="app-platform">In the works</p>
+                <h3 class="app-name">Currently exploring</h3>
+                <p class="app-platform">Next experiments</p>
               </div>
             </div>
             <p class="app-description">
-              New tools are in development. Check back soon.
+              Small utilities, privacy tools, and workflow apps that make daily computing feel a little less noisy.
             </p>
             <div class="app-tags">
-              <span class="tag">Soon™</span>
+              <span class="tag">Utilities</span>
+              <span class="tag">Privacy</span>
+              <span class="tag">Workflow</span>
             </div>
             <div class="app-card-footer">
-              <span class="app-link" style="cursor: default;">Stay tuned</span>
+              <a
+                href="https://github.com/YJuntang"
+                class="app-link app-link-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Follow Juntang on GitHub"
+                id="currently-exploring-github-link"
+              >
+                Follow along
+              </a>
             </div>
           </article>
 
@@ -299,6 +311,17 @@
             <p class="about-body">
               I like small, sharp software: privacy-respecting utilities, offline-first Android apps, and developer tools that turn messy workflows into something clean enough to trust.
             </p>
+
+            <div class="tech-stack" aria-label="Technologies Juntang uses">
+              <span>Kotlin</span>
+              <span>Jetpack Compose</span>
+              <span>TypeScript</span>
+              <span>React</span>
+              <span>Rust</span>
+              <span>Tauri</span>
+              <span>Room</span>
+              <span>Offline-first</span>
+            </div>
 
           </div>
 
