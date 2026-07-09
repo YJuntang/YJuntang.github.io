@@ -10,6 +10,7 @@
   <meta name="description" content="Juntang builds practical, privacy-minded tools including Syntax2DrawIO, UnLink, and RentSplit." />
   <meta name="author" content="Juntang" />
   <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#111113" />
   <link rel="canonical" href="https://yjuntang.github.io/" />
 
   <!-- Open Graph -->
@@ -18,16 +19,60 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://yjuntang.github.io/" />
   <meta property="og:image" content="https://yjuntang.github.io/assets/og-banner.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:image:alt" content="Juntang portfolio preview" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Juntang" />
   <meta name="twitter:description" content="Juntang builds practical, privacy-minded tools including Syntax2DrawIO, UnLink, and RentSplit." />
   <meta name="twitter:image" content="https://yjuntang.github.io/assets/og-banner.png" />
+  <meta name="twitter:image:alt" content="Juntang portfolio preview" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://yjuntang.github.io/#person",
+        "name": "Juntang",
+        "url": "https://yjuntang.github.io/",
+        "sameAs": [
+          "https://github.com/YJuntang",
+          "https://ko-fi.com/yuanjuntang"
+        ],
+        "knowsAbout": [
+          "Android app development",
+          "Kotlin",
+          "Jetpack Compose",
+          "TypeScript",
+          "React",
+          "Rust",
+          "Tauri",
+          "privacy tools",
+          "developer utilities"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://yjuntang.github.io/#website",
+        "name": "Juntang",
+        "url": "https://yjuntang.github.io/",
+        "description": "Juntang builds practical, privacy-minded tools including Syntax2DrawIO, UnLink, and RentSplit.",
+        "author": {
+          "@id": "https://yjuntang.github.io/#person"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Security -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' https://plausible.io; connect-src https://plausible.io;" />
+    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' https://plausible.io 'sha256-1YHzlbvE58FVm7z+BPqKByGXjYyJxAFdI7gY++aEt9M='; connect-src https://plausible.io;" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta name="referrer" content="no-referrer" />
 
@@ -135,7 +180,7 @@
             </div>
 
             <p class="app-description">
-              Convert Mermaid and PlantUML diagrams into editable Draw.io files. Built as a web app with a Tauri desktop shell, export diagnostics, and privacy-aware rendering.
+              Convert Mermaid and PlantUML diagrams into editable Draw.io files. Built as a TypeScript web app with a Tauri desktop shell, export diagnostics, and privacy-aware rendering.
             </p>
 
             <div class="app-tags">
@@ -188,7 +233,7 @@
             </div>
 
             <p class="app-description">
-              Strip tracking parameters from URLs before you share them. Cleans links from Threads, Facebook, YouTube, and more — so you share the content, not the surveillance.
+              A Kotlin Android privacy tool that strips tracking parameters from URLs before you share them. Cleans links from Threads, Facebook, YouTube, and more — so you share the content, not the surveillance.
             </p>
 
             <div class="app-tags">
@@ -229,7 +274,7 @@
             </div>
 
             <p class="app-description">
-              Effortless roommate and household expense sharing. Features a beautiful glassmorphic UI, OCR receipt scanning, smart debt settlements, and secure offline-first local storage.
+              An offline-first Android expense app for roommate and household sharing. Features a glassmorphic Jetpack Compose UI, OCR receipt scanning, smart debt settlements, and local storage.
             </p>
 
             <div class="app-tags">
@@ -311,6 +356,10 @@
               I like small, sharp software: privacy-respecting utilities, offline-first Android apps, and developer tools that turn messy workflows into something clean enough to trust.
             </p>
 
+            <p class="about-body">
+              My work spans Kotlin, Jetpack Compose, TypeScript, React, Rust, Tauri, Mermaid, PlantUML, and Draw.io workflows.
+            </p>
+
             <div class="tech-stack" aria-label="Technologies Juntang uses">
               <span>Kotlin</span>
               <span>Jetpack Compose</span>
@@ -318,7 +367,7 @@
               <span>React</span>
               <span>Rust</span>
               <span>Tauri</span>
-              <span>Room</span>
+              <span>Android Room</span>
               <span>Offline-first</span>
             </div>
 
